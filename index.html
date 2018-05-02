@@ -1,0 +1,99 @@
+<!DOCTYPEHtml>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <metaHttp-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen"Href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" Href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase:600,700" rel="stylesheet">
+</head>
+<body>
+<div class="wrap">
+    <!--Header & Nav Bar -->
+    <header>
+        <div class="head-wrap">
+
+            <!-- Name Tab At Left -->
+            <h1>Crystals Collector</h1>
+
+            <!-- Nav Buttons At Right -->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://ericwaldman.github.io/Responsive-Portfolio/index.html">About</a>
+                    </li>
+                    <li class="divider-space">|</li>
+                    <li>
+                        <a href="https://ericwaldman.github.io/Responsive-Portfolio/portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="divider-space">|</li>
+                    <li>
+                        <a href="https://ericwaldman.github.io/Responsive-Portfolio/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        
+        <h2>Crystals Number Game</h2>
+        
+        <div id="flip">
+            <h5>Click to open and close Game Rules</h5>
+        </div>
+        <div id="panel">
+            <p class="rules"> 
+                You will be given a random number at the start of the game.<br>
+                There are four crystals below. By clicking on a crystal, you will <br>
+                add a specific amount of points to your total score.<br>
+                You win the game by matching your total score to the random number.<br>
+                You lose the game if your total score goes above the random number.<br>
+                The value of each crystal is hidden from you until you click on it.<br>
+                Each time when the game starts, the game will change the values of each crystal.
+            </p>
+        </div>
+
+        <div class="resultsWrap">
+            <div class="numberToMatch">
+                <h4>Number To Get:
+                    <p id="randomNumber"></p>
+                </h4>
+            </div>
+            <div class="userTotal">
+                <h4>Your total score is:
+                    <p id="finalTotal"></p>
+                </h4>
+            </div>
+            <div class="win">
+                <h4>Wins:
+                    <p id="numberWins"></p>
+                </h4>
+            </div>
+            <div class="lost">
+                <h4>Losses:
+                    <p id="numberLosses"></p>
+                </h4>
+            </div>
+        </div>
+
+        <div class="crystalsWrap">
+            <div class="crystalHolder1" id="button"><img src="assets/images/Gem_1.png" class="gemImage" id="one" alt="Green Crystal"></div>
+            <div class="crystalHolder4" id="button"><img src="assets/images/Gem_2.png" class="gemImage" id="two" alt="Orange Crystal"></div>
+            <div class="crystalHolder3" id="button"><img src="assets/images/Gem_3.png" class="gemImage" id="three" alt="Pink Crystal"></div>
+            <div class="crystalHolder4" id="button"><img src="assets/images/Gem_4.png" class="gemImage" id="four" alt="Blue Crystal"></div>
+        </div>
+        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-4.4.0.js"></script>
+        <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+    </section>
+    </div>
+    <footer>
+        <p class="copy-right">Copyright&copy;</p>
+    </footer>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</body>
+</html>
